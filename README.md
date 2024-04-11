@@ -44,7 +44,7 @@ This project is licensed under the [MIT License](LICENSE).
 For any inquiries or feedback, feel free to reach out to me:
 
 - Email: manlinroswaapple@gmail.com
-- Portfolio: [Your Portfolio URL](https://your-portfolio.com)
+- Portfolio: [My Portfolio URL](https://portfolio-adqu.onrender.com)
 - LinkedIn: [Manlin115](https://www.linkedin.com/in/manlin-roswa-r-592261278/)
 
 ---
