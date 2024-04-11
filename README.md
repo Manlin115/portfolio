@@ -22,7 +22,7 @@ This portfolio website is built using HTML, CSS, and JavaScript. It includes inf
 To view the portfolio website, simply visit the deployed website URL or clone the repository to your local machine and open the `index.html` file in your web browser.
 
 ```bash
-git clone https://github.com/your-username/portfolio.git
+git clone https://github.com/your-Manlin115/portfolio.git
 ```
 
 ## Development
