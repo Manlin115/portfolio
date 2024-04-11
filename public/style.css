@@ -72,10 +72,11 @@ nav ul li{
 }
 
 nav ul li a{
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     font-size: 18px;
     position: relative;
+    padding: 20px;
 }
 
 nav ul li a::after{
@@ -111,6 +112,7 @@ nav ul li a:hover::after{
     color: #ffffff;
     margin: 200px;
     margin-left: 10%;
+    margin-top: 30px;
 }
 
 /* Media Queries for Responsive Design */
@@ -231,6 +233,7 @@ nav ul li a:hover::after{
         margin-left: 5px;
         text-align: justify;
         font-size: 90%;
+
     }
 }
 
@@ -291,4 +294,26 @@ li{
     line-height: 30px;
     font-size: larger;
     stroke: #080808;
+}
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    .container_projects .left_side img {
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 50%;
+        height: auto;
+    }
+
+    .container_projects .right_side h1 {
+        margin-top: 20px;
+        margin-left: 50px;
+        text-align: justify;
+        font-size: xx-large;
+        font-weight:bolder;
+    }
+
+    .container_projects .right_side ul {
+        margin-left: 50px;
+        font-size: 90%;
+    }
 }
