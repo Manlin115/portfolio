@@ -230,6 +230,7 @@ nav ul li a:hover::after{
     .container .right_side ul {
         margin-left: 5px;
         text-align: justify;
+        font-size: medium;
     }
 }
 
