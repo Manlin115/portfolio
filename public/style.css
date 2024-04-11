@@ -199,6 +199,7 @@ nav ul li a:hover::after{
     margin-top: 12px;
     line-height: 40px;
     list-style: none;
+    color:rgb(188, 201, 251); ;
 }
 
 .container .right_side ul i {
@@ -232,7 +233,7 @@ nav ul li a:hover::after{
     .container .right_side ul {
         margin-left: 5px;
         text-align: justify;
-        font-size: 80%;
+        font-size: large;
 
 
     }
@@ -307,14 +308,14 @@ li{
 
     .container_projects .right_side h1 {
         margin-top: 20px;
-        margin-left: 50px;
+        margin-left: 20px;
         text-align: justify;
-        font-size: xx-large;
+        font-size: large;
         font-weight:bolder;
     }
 
     .container_projects .right_side ul {
-        margin-left: 50px;
+        margin-left: 20px;
         font-size: 90%;
     }
 }
