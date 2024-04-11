@@ -168,6 +168,7 @@ nav ul li a:hover::after{
     background-position: center;
     background-size: cover;
     background-image: url(beautiful-palms-black-with-copyspace.jpg);
+    background-repeat:repeat;
 
 }
 
@@ -227,7 +228,8 @@ nav ul li a:hover::after{
     }
 
     .container .right_side ul {
-        margin-left: auto;
+        margin-left: 90px;
+        text-align: justify;
     }
 }
 
@@ -255,18 +257,16 @@ nav ul li a:hover::after{
         height: auto;
     }
 
-    .container_skills .right_side {
-        text-align:center;
-    }
-
     .container_skills .right_side h1 {
         margin-top: 20px;
-        margin-left: auto;
+        margin-left: 200px;
+        text-align: justify;
         font-size: large;
     }
 
     .container_skills .right_side ul {
-        margin-left: auto;
+        margin-left: 130px;
+        text-align: justify;
     }
 }
 
@@ -282,7 +282,7 @@ button{
     color: #fff;
     font-weight: bolder;
     cursor: pointer;
-    margin-left: 300px;
+    margin-left: 100px;
     stroke: #080808;
 }
 li{
@@ -291,5 +291,3 @@ li{
     font-size: larger;
     stroke: #080808;
 }
-
-
