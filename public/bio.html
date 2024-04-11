@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Include Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="first">
+        <div class="container">
+            <nav>
+                <h1>R. <span>M</span>anlin <span>R</span>oswa</h1>
+                <div class="menu-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="project.html">Project</a></li>
+                </ul>
+                <!-- Use Font Awesome close icon -->
+                <div class="close-icon" onclick="toggleMenu()">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </nav>
+            <!--content-->
+            <div class="container">
+                <div class="left_side">
+                    <img src="profile image.jpeg" alt="profile">
+
+                </div>
+                <div class="right_side">
+                    <h1>Bio</h1>
+                    <ul>
+                        <li><i class="fa-solid fa-address-book"> </i> <a href=""></a>+917871633001</li>
+                        <li><i class="fa-solid fa-envelope"></i> manlinroswa115@gmail.com</li>
+                        <li><i class="fa-solid fa-location-dot"></i> 36/2 mothilal 2nd street madurai.</li>
+                        <li><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/manlin-roswa-r-592261278/"> Manlin Roswa R</a></li>
+                        <li><i class="fa-brands fa-github"></i><a href="https://github.com/Manlin115/">https://github.com/Manlin115/</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    function toggleMenu() {
+        var navMenu = document.querySelector('nav ul');
+        navMenu.classList.toggle('active');
+    }
+</script>
+</html>
