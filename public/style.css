@@ -253,7 +253,12 @@ nav ul li a:hover::after{
 }
 .container_skills .right_side ul{
     margin-left: 560px;
+
 }
+.container_skills .right_side ul li{
+    line-height: 200%;
+}
+
 /* Responsive styles */
 @media only screen and (max-width: 768px) {
     .container_skills .left_side img {
