@@ -253,20 +253,20 @@ nav ul li a:hover::after{
 @media only screen and (max-width: 768px) {
     .container_skills .left_side img {
         margin-top: 20px;
-        margin-left: 90px;
+        margin-left: 20px;
         width: 50%;
         height: auto;
     }
 
     .container_skills .right_side h1 {
         margin-top: 20px;
-        margin-left: 200px;
+        margin-left: 50px;
         text-align: justify;
         font-size: large;
     }
 
     .container_skills .right_side ul {
-        margin-left: 130px;
+        margin-left: 50px;
         text-align: justify;
     }
 }
